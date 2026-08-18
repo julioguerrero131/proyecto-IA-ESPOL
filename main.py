@@ -114,7 +114,7 @@ if archivo_subido is not None:
         # Advertencia de baja certeza
         if confianza < UMBRAL_BAJA_CONFIANZA:
             st.warning(
-                f"⚠️ **Advertencia:** La certeza está por debajo del umbral recomendado ({UMBRAL_BAJA_CONFIANZA:.0f}%). "
+                f"**Advertencia:** La certeza está por debajo del umbral recomendado ({UMBRAL_BAJA_CONFIANZA:.0f}%). "
                 "Repita la captura a 15-20 cm de distancia, enfocada y sin sombras excesivas."
             )
 
